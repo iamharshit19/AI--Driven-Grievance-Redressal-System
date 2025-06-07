@@ -95,7 +95,19 @@
     "responses": [
       "There is a serious drainage issue in our area due to blocked or overflowing drains, causing stagnant water and foul smell. Please resolve this at the earliest."
     ]
-  }
-
-
-]}
+  },
+{
+  "tags": "Electricity Problem",
+  "patterns": [
+    "power cut",
+    "no electricity",
+    "voltage fluctuation",
+    "electricity issue",
+    "frequent power outage"
+  ],
+  "responses": [
+    "There are frequent power cuts and voltage fluctuations in our locality. It is affecting daily life and damaging appliances. Please resolve the electricity issue urgently."
+    ]
+   }
+  ]
+}
