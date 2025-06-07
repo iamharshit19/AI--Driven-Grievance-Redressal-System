@@ -5,31 +5,34 @@ It employs advanced AI for automatic complaint categorization, sentiment analysi
 
 
 #Frontend
+
     • React
     • TailwindCSS
 #Backend
+
     • Express.js
     • Node.js
     • Flask
     • MongoDB
 #ML
+
     • NLTK
     • Tensorflow
     • Numpy
       
 #Project Structure
-
-
-/
-├── frontend/            # React-based interfaces
-│   ├── grievancesystem/     # Citizen-facing portal
-│   └── officials-portal/    # Admin dashboard
-├── backend/             # Node.js + Express + MongoDB APIs Python Flask AI/ML microservices
-└── README.md
+  
+    /
+    ├── frontend/            # React-based interfaces
+    │   ├── grievancesystem/     # Citizen-facing portal
+    │   └── officials-portal/    # Admin dashboard
+    ├── backend/             # Node.js + Express + MongoDB APIs Python Flask AI/ML microservices
+    └── README.md
 
 
 #Features
 1.Citizen Portal
+    
     • Easy grievance submission
       
     • Tracking via unique ID
@@ -40,6 +43,7 @@ It employs advanced AI for automatic complaint categorization, sentiment analysi
       
     • Priority-based grievance handling (AI-powered)
 2.Officials Portal
+   
     • Department-wise dashboard
       
     • Status management (Pending, Processing, Resolved, Rejected)
@@ -48,6 +52,7 @@ It employs advanced AI for automatic complaint categorization, sentiment analysi
       
     • Admin announcement module
 3.AI/ML Capabilities
+    
     • Priority prediction based on text (High / Medium / Low)
       
     • Built using NLTK and TensorFlow
@@ -65,27 +70,36 @@ admins: Admin login and announcements
 announcements: Stores official notices
 
 #How to run
+
 1. Backend (Node.js + MongoDB)
-cd backend
-npm install
-node server.js
+
+       cd backend
+       npm install
+       node server.js
 2. Frontend(React)
-cd frontend
+
+       cd frontend
 i)Citizen portal
-   cd citizen-portal
-   npm install
-   npm run dev
+        
+    cd citizen-portal
+    npm install
+    npm run dev
 ii) Admin Portal
+    
     cd admin-portal
     cd login-signup
     npm install
     npm run dev
-3. Flask server for AI chatbot and classfication
-  cd backend
-  cd neural-network-chatbot
-  python chatbot.py
+4. Flask server for AI chatbot and classfication
+
+       cd backend
+       cd neural-network-chatbot
+       python chatbot.py
+
+
 //for classifier
-  python classifier.py
+          
+          python classifier.py
 
 
 
