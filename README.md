@@ -1,4 +1,5 @@
 #Overview
+
 This project presents an AI-driven Indian Grievance Management System that simplifies the lodging and resolution of public complaints. By integrating a multilingual chatbot, the system ensures accessibility across diverse linguistic groups.
 It employs advanced AI for automatic complaint categorization, sentiment analysis, and prioritization. Real-time tracking and offer transparency and trust. The platform bridges the gap between citizens and authorities, fostering efficient communication and prompt redressal of grievances.
 
